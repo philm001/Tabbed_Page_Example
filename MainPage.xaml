@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:Tabbed_Page"
+            x:Class="Tabbed_Page.MainPage"
+            xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            android:TabbedPage.IsSwipePagingEnabled="false"
+            UnselectedTabColor="Gray"
+            SelectedTabColor="{StaticResource Secondary}"
+             >
+
+    <local:JuicePressPage Title="JuicePress" IconImageSource="newspaper.svg"></local:JuicePressPage>
+    <local:EventsPage Title="Events" IconImageSource="calendar_month_outline.svg"></local:EventsPage>
+
+
+</TabbedPage>
